@@ -1,0 +1,5 @@
+# Normalise to LF everywhere. Byte-identical workload files and signatures
+# over canonical bytes must not depend on the checkout platform.
+* text=auto eol=lf
+*.png binary
+*.pdf binary

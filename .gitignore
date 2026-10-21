@@ -1,0 +1,24 @@
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+.env
+.env.*
+
+# Facility and service private keys are generated per run and never committed (SPEC.md Section 5).
+keys/
+*.key
+*.pem
+
+# Generated workloads are reproducible from their seed.
+workloads/
+
+# Raw run outputs are git-ignored except curated samples (SPEC.md Section 4).
+results/*
+!results/README.md
+!results/samples/
+
+# Python
+__pycache__/
+.venv/
+.ipynb_checkpoints/

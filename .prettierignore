@@ -1,0 +1,7 @@
+pnpm-lock.yaml
+dist/
+coverage/
+results/
+# Source documents are kept verbatim as received.
+SPEC.md
+docs/THREAT-MODEL.md
